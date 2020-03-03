@@ -15,6 +15,10 @@ body, html {
     background-size: cover;
 }
 
+header {
+  display: none;
+}
+
 .bgimg-1 {
     background-image: url("bg2.jpg");
     height: 100%;
