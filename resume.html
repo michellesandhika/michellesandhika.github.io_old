@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 
 <head>
-
+<link rel="stylesheet" type="text/css" href="timeline.css">
 </head>
 
 <body>
-    <h2>If you would like to view my CV in the normal traditional way click here </h2>
-    <h2>Otherwise scroll down!</h2>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="resume.html">Resume</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>  
+        
+    </div>
+    
+    <h2 style="text-align: center;color:white;">If you would like to view my CV in the normal traditional way click <a href="cv.pdf">here</a>
+    <br>Otherwise scroll down!</h2>
 
-    <!-- use javscript to change the content -->
+    <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <h2>PolyU Service Learning Leadership Office - Student Assistant [Nov 2019]</h2>
+            <p>Assisting from creating databases to managing events</p>
+          </div>
+        </div>
+        
 
-    <div id="like_button_container"></div>
+        <div class="container right">
+          <div class="content">
+            <h2>Cyber Insurance Broker Limited</h2>
+            <p>Creating content for the company’s website and helping with Jun 2019
+                SEO optimization</p>
+          </div>
+        </div>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <div class="container left">
+            <div class="content">
+                <h2>Indonesia’s Presidential Election in Macau</h2>
+                <p>Help troubleshoot network or other technical problems on the election</p>
+            </div>
+        </div>
 
-    <!-- Load our React component. -->
-    <script src="album.js"></script>
-    <script>Album();</script>
+        <div class="container right">
+            <div class="content">
+              <h2>PT. Megapower Makmur TBK</h2>
+              <p>Assisted on managing the firm’s financial statements</p>
+            </div>
+        </div>
 
+    </div>
+
+    
 </body>
